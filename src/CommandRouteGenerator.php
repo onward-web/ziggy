@@ -8,7 +8,7 @@ use Tightenco\Ziggy\Ziggy;
 
 class CommandRouteGenerator extends Command
 {
-    protected $signature = 'ziggy:generate {path=./resources/js/ziggy.js} {--url=} {--group=}';
+    protected $signature = 'ziggy:generate {path=./public/vendor/ziggy/ziggy.js} {--url=} {--group=}';
 
     protected $description = 'Generate js file for including in build process';
 
@@ -43,7 +43,7 @@ if (typeof window !== 'undefined' && typeof window.Ziggy !== 'undefined') {
     Object.assign(Ziggy.routes, window.Ziggy.routes);
 }
 
-export { Ziggy };
+
 
 JAVASCRIPT;
     }
