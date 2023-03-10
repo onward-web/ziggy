@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6c0d727-9e0f-425c-a673-e25643a1edb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GeneratedEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandRouteGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandRouteGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneratedEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneratedEvent.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <workItem from="1625189771002" duration="2096000" />
       <workItem from="1638817528084" duration="626000" />
       <workItem from="1644083566181" duration="40000" />
-      <workItem from="1678470769913" duration="487000" />
+      <workItem from="1678470769913" duration="644000" />
     </task>
     <servers />
   </component>

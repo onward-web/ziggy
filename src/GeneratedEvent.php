@@ -10,8 +10,6 @@ class GeneratedEvent
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public $categoryIds = [];
-
     /**
      * Get the channels the event should broadcast on.
      *
