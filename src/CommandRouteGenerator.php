@@ -5,6 +5,7 @@ namespace Tightenco\Ziggy;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Tightenco\Ziggy\Ziggy;
+use Tightenco\Ziggy\GeneratedEvent;
 
 class CommandRouteGenerator extends Command
 {
@@ -28,6 +29,8 @@ class CommandRouteGenerator extends Command
 
         $this->makeDirectory($path);
         $this->files->put(base_path($path), $generatedRoutes);
+
+        event(new GeneratedEvent());
 
         $this->info('File generated!');
     }
